@@ -5,7 +5,8 @@ http_archive(
     name = "bazel_embedded",
     urls = [
          "https://github.com/alandovskis/bazel-embedded/archive/ci-stm32h7xx-examples.zip",
-    ]
+    ],
+    build_file = "@//:bazel-embedded.BUILD",
 )
 
 load("@bazel_embedded//:bazel_embedded_deps.bzl", "bazel_embedded_deps")

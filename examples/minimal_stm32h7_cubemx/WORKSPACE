@@ -4,7 +4,7 @@ load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 http_archive(
     name = "bazel_embedded",
     urls = [
-         "https://github.com/silvergasp/bazel-embedded/archive/master.zip",
+         "https://github.com/alandovskis/bazel-embedded/archive/ci-stm32h7xx-examples.zip",
     ]
 )
 
